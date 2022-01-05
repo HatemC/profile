@@ -9,6 +9,15 @@ body {
    line-height: 1.6;
 }
 
+.banner {
+height: 500px;
+background-image: url("https://images.unsplash.com/photo-1539667468225-eebb663053e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80") ;
+background-size: cover;
+color: white;
+padding-top: 20px;
+box-shadow: 20px 10px 10px rgb(105, 103, 103);
+}
+
 h1, h2, h3 {
   font-family:cursive;
   line-height: 1.6;
@@ -16,7 +25,6 @@ h1, h2, h3 {
 
 h1 {
     font-size: 28px;
-    color:rgb(23, 50, 59)
 }
 
 a {
@@ -29,12 +37,13 @@ a:hover {
 }
 
 .container {
-  width: 800px;   /* This sets the width */
+  width: 1200px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
 .img-circle {
   border-radius: 50%;
+  box-shadow: 5px 2px 2px rgb(105, 103, 103);
 }
 
 .text-center {
@@ -45,9 +54,18 @@ a:hover {
   background: white;
   padding: 30px;
   border: 1px solid lightgrey;
-  box-shadow: 10px 5px 5px rgb(105, 103, 103);
+  box-shadow: 20px 10px 10px rgb(105, 103, 103);
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.card-white p {
+  display: inline;
+}
+
+.fab {
+  size: 80px;
+  width: 30px;
 }
 
 @media (max-width: 1200px) {
